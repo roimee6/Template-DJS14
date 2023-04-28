@@ -1,0 +1,21 @@
+{
+  "name": "template-djs14",
+  "version": "1.0.0",
+  "description": "Template to use discord.js 14 with typescript!",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "npx tsc && node build/main.js",
+    "build": "npx tsc",
+    "start": "node build/main.js"
+  },
+  "author": "MaXoooZ",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.7.0",
+    "discord.js": "^14.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.2",
+    "typescript": "^5.0.4"
+  }
+}
