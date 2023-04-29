@@ -1,10 +1,10 @@
-import { Client, CommandInteraction } from "discord.js";
+import { Client, Interaction } from "discord.js";
 import { commands } from "../util/functions";
 
 export default {
     name: "interactionCreate",
     once: false,
-    execute: async function(client: Client, interaction: CommandInteraction) {
+    execute: async function(client: Client, interaction: Interaction) {
         if (!interaction.isCommand()) {
             return;
         }
